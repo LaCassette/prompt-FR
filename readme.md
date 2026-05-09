@@ -1,149 +1,70 @@
-# Prompt Booster
+# Prompt FR - EN
 
-Une collection de prompts puissants, clairs et prêts à l’emploi en **français** et en **anglais** pour accélérer l’écriture, la création et la productivité avec l’IA.
+Toutes les modifications notables de ce projet seront documentées dans ce fichier.  
+All noteworthy changes to this project will be documented in this file.
 
-Ce dépôt centralise mes meilleurs prompts, pensés pour être :
-- simples à comprendre,
-- faciles à copier-coller,
-- efficaces dès la première utilisation,
-- adaptés à des usages réels.
+Le format suit une logique simple :  
+This format follows a simple logic:
 
----
-
-## Pourquoi ce repo ?
-
-J’ai créé ce dépôt pour rassembler des prompts de qualité dans un format propre, lisible et directement exploitable.
-
-L’objectif est simple :
-- gagner du temps,
-- éviter les prompts flous ou trop longs,
-- obtenir de meilleurs résultats plus vite,
-- proposer une base claire pour tout le monde, débutant ou avancé.
+- Ajout de nouveaux prompts.  
+  Added new prompts.  
+- Amélioration de prompts existants.  
+  Improved existing prompts.  
+- Corrections de structure ou de lisibilité.  
+  Fixed structure or readability.  
+- Nouvelles catégories selon l’usage.  
+  Added new categories by use case.  
+- Optimisations de présentation ou de navigation.  
+  Optimized presentation and navigation.
 
 ---
 
-## Ce que tu trouveras
+## [Unreleased] – Non publié
 
-- Des prompts en **FR** et **EN**.
-- Des prompts pour différents usages.
-- Des versions courtes et longues selon le besoin.
-- Des formulations pensées pour être plus claires, plus utiles et plus performantes.
+### Added
+- Prompt FR pour refondre le style d’une app Next.js.  
+  FR prompt to redesign the visual style of a Next.js app.
+- Prompt EN pour refondre le style d’une app Next.js.  
+  EN prompt to redesign the visual style of a Next.js app.
+- README initial du dépôt.  
+  Initial README of the repository.
+- Base du fichier CHANGELOG bilingue FR & EN.  
+  Base of a bilingual FR & EN CHANGELOG file.
 
----
+### Changed
+- Structure du projet pour séparer clairement les prompts FR et EN.  
+  Project structure reorganized to clearly separate FR and EN prompts.
+- Ton du README et du changelog plus simple, plus accessible, plus orienté usage réel.  
+  Tone of the README and changelog made simpler, more accessible, and more focused on real usage.
 
-## Structure du projet
-
-```txt
-.
-├── prompts/
-│   ├── fr/
-│   └── en/
-├── README.md
-└── CHANGELOG.md
-```
-
----
-
-## Comment l’utiliser
-
-1. Ouvre le dossier du prompt que tu veux utiliser.
-2. Copie le prompt.
-3. Colle-le dans ton outil IA préféré.
-4. Adapte le contexte si besoin.
-5. Lance la génération.
-
-### Exemple
-```txt
-Tu es un expert en frontend design...
-```
+### Planned
+- Ajout de plus de catégories (copywriting, dev, design, business, etc.).  
+  Add more categories (copywriting, dev, design, business, etc.).
+- Ajout d’exemples d’utilisation de prompts.  
+  Add usage examples for each prompt.
+- Ajout de templates pour l’écriture de prompts.  
+  Add templates for prompt engineering.
+- Optimisation des prompts pour différents outils IA (ChatGPT, Claude, Cursor, etc.).  
+  Optimize prompts for different AI tools (ChatGPT, Claude, Cursor, etc.).
 
 ---
 
-## Prompts disponibles
+## [1.0.0] – 2026‑05‑09
 
-### Français
-- Prompt de refonte de style pour une app Next.js.
-- Prompt pour créer un README clair et complet.
-- D’autres prompts à venir.
+### Added
+- Première version publique du dépôt.  
+  Initial public release of the repository.
+- Deux premiers prompts prêts à l’emploi : un en français, un en anglais.  
+  Two first ready‑to‑use prompts: one in French, one in English.
+- README de base expliquant le projet et la structure.  
+  Base README explaining the project and the structure.
+- Architecture améliorer pour mieux retrouvé les prompts
+  Architecture optimsed for better search manipulation
 
-### English
-- Next.js style redesign prompt.
-- README generation prompt.
-- More prompts coming soon.
-
----
-
-## Philosophie
-
-Chaque prompt suit quelques principes simples :
-
-- **Clarté** : pas de blabla inutile.
-- **Précision** : un objectif bien défini.
-- **Utilité** : un vrai résultat attendu.
-- **Adaptabilité** : facile à modifier.
-- **Performance** : pensé pour mieux guider l’IA.
-
----
-
-## Comment écrire un bon prompt
-
-Un bon prompt contient souvent :
-
-- un rôle clair,
-- un objectif précis,
-- un contexte,
-- des contraintes,
-- un format de sortie attendu.
-
-### Exemple de structure
-```txt
-Rôle + objectif + contexte + contraintes + livrable
-```
-
----
-
-## Contribution
-
-Les contributions sont les bienvenues.
-
-Tu peux aider en :
-- ajoutant de nouveaux prompts,
-- améliorant les prompts existants,
-- proposant une meilleure version FR ou EN,
-- corrigeant des fautes ou clarifiant une formulation.
-
-### Avant de contribuer
-- garde un style simple,
-- évite les formulations trop vagues,
-- privilégie les prompts réutilisables,
-- respecte la structure du dépôt.
-
----
-
-## Changelog
-
-Les changements importants sont documentés dans le fichier `CHANGELOG.md`.
-
----
-
-## Roadmap
-
-- Ajouter plus de prompts FR.
-- Ajouter plus de prompts EN.
-- Créer des catégories par usage.
-- Ajouter des exemples de sortie.
-- Ajouter une version optimisée pour ChatGPT, Claude et Cursor.
-
----
-
-## Licence
-
-À compléter selon ton choix de licence.
-
----
-
-## Contact
-
-Projet maintenu par **La Money Machine**.
-
-Si tu veux proposer un prompt ou une amélioration, ouvre une issue ou une pull request.
+### Changed
+- Nettoyage du format Markdown pour une lecture plus claire.  
+  Cleaned up Markdown formatting for better readability.
+- Clarification des sections “Ce que tu trouveras” et “Comment l’utiliser”.  
+  Clarified the “What you’ll find” and “How to use” sections.
+- Ton plus orienté “simple, rapide, efficace” pour tous les niveaux.  
+  Tone oriented toward “simple, quick, and effective” for all skill levels.
